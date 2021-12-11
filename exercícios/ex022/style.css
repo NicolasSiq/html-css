@@ -1,7 +1,7 @@
 body{
     background-image: url(midia/wallpaper001.jpg);
 }
-div.quadrado{
+a.quadrado{
     display: inline-block;
     border: 2px solid black;
     width: 300px;
@@ -10,26 +10,31 @@ div.quadrado{
     float: left;
     margin: 0px;
 }
-div#q1{
+a#q1{
     background-color: skyblue;
 }
-div#q2{
+a#q2{
     background-image: linear-gradient(to bottom, yellow, red);
     transform: translateX(10px);
 }
-div#q3{
+a#q3{
     background-image: url(midia/pattern001.png);
     transform: translateX(20px);
 }
-div#q1:hover{
+a#q1:hover{
     width: 320px;
     height: 320px;
 }
-div#q2:hover{
+a#q2:hover{
     width: 320px;
     height: 320px;
 }
-div#q3:hover{
+a#q3:hover{
     width: 320px;
     height: 320px;
+}
+
+a#azul{
+    width: 100%;
+    height: 100%;
 }
