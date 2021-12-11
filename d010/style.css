@@ -1,0 +1,135 @@
+@font-face {
+    font-family:'Coolvetica Condensed Rg-Regular';
+    src: url('midia/FontsFree-Net-coolvetica-condensed-rg.ttf') 
+    format('truetype');
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('midia/idroid.otf')
+    format('opentype')
+}
+body{
+    background-color: #84E1AD;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: linear-gradient(#3BD57F,#165032);
+    width: 100%;
+    margin: auto;
+    border: 0px;
+}
+h1{
+    margin: 0px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.397);
+    color: white;
+}
+h2{
+    font-family:'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    font-size: 1.2em;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+a.cabecario{
+    font-size: 1.4em;
+    float: left;
+    margin: 0px 00px 0px 20px;
+    text-decoration-line: none;
+    color:white;
+    font-family: 'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    transform: translate(10px, -2px);
+}
+div#head{
+    width:100%;
+    height: 30px;
+    color: white;
+}
+div#page{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 0px 15% 0px 15%;
+    padding: 20px;
+}
+h1#titulo{
+    font-family: 'idroid';
+    color: #165032;
+    text-shadow: 0px 0px 0px white;
+    font-size: 2.5em;
+    text-align: left;
+}
+h2.subtitulos{
+    font-family: 'idroid';
+    color: #165032;
+    font-size: 2em;
+    text-align: left;
+    width: auto;
+    background: linear-gradient(to right,#84E1AD, white);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+img{
+    width: 100%;
+}
+img
+a{
+    color: #165032;
+    text-decoration-line: none;
+}
+div#imgbug{
+    margin: auto;
+    width: 300px;
+    height: 195px;
+}
+div#video{
+    margin: auto;
+    padding: 2.5%;
+    background-color: #165032;
+    position: relative;
+    padding-bottom: 54%;
+}
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+div#pagegreen{
+    background-color: #84E1AD;
+    width:100%;
+    height: 400px;
+    border-radius: 1em;
+}
+div#subpagegreen{
+    background-color: #32B56C;
+    width: 100%;
+    height: 15%;
+    border-radius: 1em;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+p#minititulo{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-top: 0.5em;
+}
+div#list{
+    padding: 1em;
+    font-size: 1.4em;
+}
+div#list1{
+    float: left;
+}
+div#list2{
+    float: left;
+}
+

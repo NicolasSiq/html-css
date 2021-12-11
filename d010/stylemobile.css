@@ -1,0 +1,75 @@
+@font-face {
+    font-family:'Coolvetica Condensed Rg-Regular';
+    src: url('midia/FontsFree-Net-coolvetica-condensed-rg.ttf') 
+    format('truetype');
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('midia/idroid.otf')
+    format('opentype')
+}
+body{
+    background-color: #84E1AD;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: linear-gradient(#3BD57F,#165032);
+    width: 100%;
+    margin: auto;
+    border: 0px;
+}
+h1{
+    margin: 0px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.397);
+    color: white;
+}
+h2{
+    font-family:'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    font-size: 1.2em;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+a.cabecario{
+    font-size: 1.4em;
+    float: left;
+    margin: 0px 00px 0px 20px;
+    text-decoration-line: none;
+    color:white;
+    font-family: 'Coolvetica Condensed Rg-Regular', 'sans-serif';
+    transform: translate(10px, -2px);
+}
+div#head{
+    width:100%;
+    height: 30px;
+    color: white;
+}
+div#page{
+    background-color: white;
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    padding: 20px;
+}
+h1#titulo{
+    font-family: 'idroid';
+    color: #165032;
+    text-shadow: 0px 0px 0px white;
+    font-size: 2.5em;
+    text-align: left;
+}
+h2.subtitulos{
+    font-family: 'idroid';
+    color: #165032;
+    font-size: 2em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
